@@ -1,0 +1,1 @@
+{"dependencies":{"playwright":"^1.49.0"},"description":"Playwright scraper worker for the Bazaar Price Board (public pages only, no login, no cart)","name":"bazaar-price-board-scraper","private":true,"scripts":{"scrape":"node scrape.js"},"version":"1.0.0"}
