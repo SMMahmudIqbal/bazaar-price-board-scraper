@@ -1,0 +1,437 @@
+{
+  "live": true,
+  "scannedAt": "2026-10-26T04:01:30.108Z",
+  "shops": {
+    "shwapno": {
+      "ok": false,
+      "checkedAt": "2026-10-26T04:01:30.496Z",
+      "items": [],
+      "reason": "no structured price data found on the page"
+    },
+    "chaldal": {
+      "ok": false,
+      "checkedAt": "2026-10-26T04:01:35.375Z",
+      "items": [],
+      "reason": "no structured price data found on the page"
+    },
+    "agora": {
+      "ok": true,
+      "checkedAt": "2026-10-26T04:02:00.357Z",
+      "items": [
+        {
+          "shop": "Agora",
+          "variant": "sugar-1kg",
+          "product": "Green Field Green field sugar loose",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 110,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "moshur-dal-kg",
+          "product": "Green Field Green field moshur dal-loose- syria",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 99,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "moshur-dal-kg",
+          "product": "Moshur Dal Moshur dal (kangaroo) loose",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 187,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-2L",
+          "product": "Teer Soyabean Teer soyabean oil",
+          "pack": "2 L",
+          "packQty": 2,
+          "unit": "L",
+          "price": 408,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "nazirshail-5kg",
+          "product": "Aarong Natural Aarong natural nazirshail rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 535,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "salt-1kg",
+          "product": "Molla Super Molla super salt",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 42,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "miniket-5kg",
+          "product": "Aarong Natural Aarong natural miniket rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 500,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-5L",
+          "product": "Fresh Soyabean Fresh soyabean oil",
+          "pack": "5 L",
+          "packQty": 5,
+          "unit": "L",
+          "price": 1000,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-1L",
+          "product": "Fresh Soyabean Fresh soyabean oil",
+          "pack": "1 L",
+          "packQty": 1,
+          "unit": "L",
+          "price": 204,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "nazirshail-5kg",
+          "product": "Pran Nazirshail Pran nazirshail rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 515,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "miniket-5kg",
+          "product": "Pran Miniket Pran miniket rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 470,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-2L",
+          "product": "Rupchanda Soyabean Rupchanda soyabean oil",
+          "pack": "2 L",
+          "packQty": 2,
+          "unit": "L",
+          "price": 408,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "sugar-1kg",
+          "product": "Fresh Sugar Fresh sugar",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 110,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "sugar-1kg",
+          "product": "Teer Sugar Teer sugar",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 110,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-1L",
+          "product": "Teer Soyabean Teer soyabean oil",
+          "pack": "1 L",
+          "packQty": 1,
+          "unit": "L",
+          "price": 204,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-1L",
+          "product": "Rupchanda Soyabean Rupchanda soyabean oil",
+          "pack": "1 L",
+          "packQty": 1,
+          "unit": "L",
+          "price": 204,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-5L",
+          "product": "Rupchanda Soyabean Rupchanda soyabean oil",
+          "pack": "5 L",
+          "packQty": 5,
+          "unit": "L",
+          "price": 1000,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-5L",
+          "product": "Teer Soyabean Teer soyabean oil",
+          "pack": "5 L",
+          "packQty": 5,
+          "unit": "L",
+          "price": 1000,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "salt-1kg",
+          "product": "Fresh Super Fresh super salt",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 37,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "nazirshail-5kg",
+          "product": "Khusboo Premium Khusboo premium najirshail rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 445,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "sugar-1kg",
+          "product": "Bsfic Sugar Bsfic sugar",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 140,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "sugar-1kg",
+          "product": "Igloo Sugar Igloo sugar",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 85,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "miniket-5kg",
+          "product": "Aci Pure Aci pure miniket rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 460,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "nazirshail-5kg",
+          "product": "Nazirshail Aci pure nazirshail rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 520,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-2L",
+          "product": "Fresh Soyabean Fresh soyabean oil",
+          "pack": "2 L",
+          "packQty": 2,
+          "unit": "L",
+          "price": 408,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-1L",
+          "product": "Bashundhara Soyabean Bashundhara soyabean oil",
+          "pack": "1 L",
+          "packQty": 1,
+          "unit": "L",
+          "price": 189,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-2L",
+          "product": "Bashundhara Soyabean Bashundhara soyabean oil",
+          "pack": "2 L",
+          "packQty": 2,
+          "unit": "L",
+          "price": 378,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-5L",
+          "product": "Bashundhara Soyabean Bashundhara soyabean oil",
+          "pack": "5 L",
+          "packQty": 5,
+          "unit": "L",
+          "price": 922,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "miniket-5kg",
+          "product": "Teer Miniket Teer miniket rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 470,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "nazirshail-5kg",
+          "product": "Teer Nazirshail Teer nazirshail rice",
+          "pack": "5 kg",
+          "packQty": 5,
+          "unit": "kg",
+          "price": 480,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "sugar-1kg",
+          "product": "Mitr Phol Mitr phol natural unrefined sugar",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 450,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "salt-1kg",
+          "product": "Aci Salt Aci salt",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 42,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "moshur-dal-kg",
+          "product": "Green Field Green field deshi moshur dal loose",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 139,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-5L",
+          "product": "Pusti Soyabean Pusti soyabean oil",
+          "pack": "5 L",
+          "packQty": 5,
+          "unit": "L",
+          "price": 1000,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-5L",
+          "product": "Starship Soyabean Starship Fortified Soyabean Oil",
+          "pack": "5 L",
+          "packQty": 5,
+          "unit": "L",
+          "price": 985,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-2L",
+          "product": "Starship Soyabean Starship Fortified Soyabean Oil",
+          "pack": "2 L",
+          "packQty": 2,
+          "unit": "L",
+          "price": 408,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "soybean-1L",
+          "product": "Starship Soyabean Starship Fortified Soyabean Oil",
+          "pack": "1 L",
+          "packQty": 1,
+          "unit": "L",
+          "price": 204,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "salt-1kg",
+          "product": "IODIZED SALT AKIJ ESSENTIAL IODIZED SALT",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 42,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "sugar-1kg",
+          "product": "SUGAR LOOSE DESHI SUGAR LOOSE (KG)",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 138,
+          "was": null
+        },
+        {
+          "shop": "Agora",
+          "variant": "moshur-dal-kg",
+          "product": "DESI MOSHUR DAL PUSTI DESI MOSHUR DAL",
+          "pack": "1 kg",
+          "packQty": 1,
+          "unit": "kg",
+          "price": 122,
+          "was": null
+        }
+      ],
+      "source": "scraper"
+    },
+    "meena": {
+      "ok": false,
+      "checkedAt": "2026-10-26T04:02:15.472Z",
+      "items": [],
+      "reason": "no structured price data found on the page"
+    },
+    "unimart": {
+      "ok": false,
+      "checkedAt": "2026-10-26T04:02:22.250Z",
+      "items": [],
+      "reason": "no structured price data found on the page"
+    }
+  }
+}
