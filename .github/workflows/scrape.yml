@@ -1,0 +1,49 @@
+# Bazaar Price Board scraper: every 30 minutes on GitHub Actions.
+# Writes data/prices.json (same shape /api/live returns) and commits it when
+# it changed. Public pages only, no login, no cart, no checkout.
+#
+# MANUAL STEP (one time, before this can ever run): this workflow needs a
+# GitHub repository for the board. The connector cannot create repos, so
+# create it in the user's signed-in browser, push the board files (index.html,
+# api/, data/, scraper/, this workflow) there, and this workflow will start
+# on its schedule. Until then, run the scraper locally:
+#   cd scraper && npm install && npx playwright install chromium && node scrape.js
+#
+# NOTE: committing prices.json does NOT by itself update the live board.
+# The Vercel board is deployed through deploy.py, not from git, so a deploy
+# that includes data/prices.json is still needed for /api/live to serve it.
+# See DEPLOY-NOTES.md in the staging folder.
+name: Scrape super shop prices
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install scraper dependencies
+        working-directory: scraper
+        run: npm install
+      - name: Install Chromium
+        working-directory: scraper
+        run: npx playwright install --with-deps chromium
+      - name: Run scraper
+        run: node scraper/scrape.js
+      - name: Commit prices if changed
+        run: |
+          git config user.name "bazaar-price-board-bot"
+          git config user.email "bazaar-price-board-bot@users.noreply.github.com"
+          git add data/prices.json
+          git diff --cached --quiet || git commit -m "prices: scheduled scrape"
+          git push
