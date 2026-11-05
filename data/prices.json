@@ -1,22 +1,22 @@
 {
   "live": true,
-  "scannedAt": "2026-11-05T07:46:48.207Z",
+  "scannedAt": "2026-11-05T22:10:35.435Z",
   "shops": {
     "shwapno": {
       "ok": false,
-      "checkedAt": "2026-11-05T07:46:50.287Z",
+      "checkedAt": "2026-11-05T22:10:35.784Z",
       "items": [],
       "reason": "no structured price data found on the page"
     },
     "chaldal": {
       "ok": false,
-      "checkedAt": "2026-11-05T07:46:55.678Z",
+      "checkedAt": "2026-11-05T22:10:40.853Z",
       "items": [],
       "reason": "no structured price data found on the page"
     },
     "agora": {
       "ok": true,
-      "checkedAt": "2026-11-05T07:47:40.779Z",
+      "checkedAt": "2026-11-05T22:11:08.982Z",
       "items": [
         {
           "shop": "Agora",
@@ -245,7 +245,7 @@
           "pack": "5 kg",
           "packQty": 5,
           "unit": "kg",
-          "price": 460,
+          "price": 480,
           "was": null
         },
         {
@@ -415,7 +415,7 @@
           "pack": "1 kg",
           "packQty": 1,
           "unit": "kg",
-          "price": 122,
+          "price": 115,
           "was": null
         }
       ],
@@ -423,13 +423,13 @@
     },
     "meena": {
       "ok": false,
-      "checkedAt": "2026-11-05T07:47:56.674Z",
+      "checkedAt": "2026-11-05T22:11:25.731Z",
       "items": [],
       "reason": "no structured price data found on the page"
     },
     "unimart": {
       "ok": false,
-      "checkedAt": "2026-11-05T07:48:33.062Z",
+      "checkedAt": "2026-11-05T22:11:32.095Z",
       "items": [],
       "reason": "no structured price data found on the page"
     }
