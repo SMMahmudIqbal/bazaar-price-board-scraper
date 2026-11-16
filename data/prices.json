@@ -1,22 +1,22 @@
 {
   "live": true,
-  "scannedAt": "2026-11-16T00:09:15.955Z",
+  "scannedAt": "2026-11-16T07:00:55.641Z",
   "shops": {
     "shwapno": {
       "ok": false,
-      "checkedAt": "2026-11-16T00:09:17.329Z",
+      "checkedAt": "2026-11-16T07:00:56.963Z",
       "items": [],
       "reason": "no structured price data found on the page"
     },
     "chaldal": {
       "ok": false,
-      "checkedAt": "2026-11-16T00:09:23.016Z",
+      "checkedAt": "2026-11-16T07:01:02.270Z",
       "items": [],
       "reason": "no structured price data found on the page"
     },
     "agora": {
       "ok": true,
-      "checkedAt": "2026-11-16T00:09:47.665Z",
+      "checkedAt": "2026-11-16T07:01:27.189Z",
       "items": [
         {
           "shop": "Agora",
@@ -423,13 +423,13 @@
     },
     "meena": {
       "ok": false,
-      "checkedAt": "2026-11-16T00:10:03.270Z",
+      "checkedAt": "2026-11-16T07:01:46.076Z",
       "items": [],
       "reason": "no structured price data found on the page"
     },
     "unimart": {
       "ok": false,
-      "checkedAt": "2026-11-16T00:10:10.801Z",
+      "checkedAt": "2026-11-16T07:01:55.415Z",
       "items": [],
       "reason": "no structured price data found on the page"
     }
